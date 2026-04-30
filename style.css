@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 30px;
+    background-image: url("./assets/table.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: monospace;
+}
+
+h1{
+    color: rgb(255, 183, 0);
+    margin-bottom: 15px;
+}
+
+#sum-el{
+    margin-bottom: 20px;
+}
+
+.start-btn{
+    width: 170px;
+    height: 28px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 183, 0);
+    border: none;
+    font-weight: bold;
+    color: green;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: transform 0.2s ease;
+}
+
+button:active{
+    transform: scale(0.9);
+}
